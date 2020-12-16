@@ -9,6 +9,24 @@ Learning Sanskrit<br>
 
 {% block content %}
 
+<style>
+    .shloka{
+      text-align: center; margin-bottom: 1vw;
+      }
+    .shloka > h3, .shloka > div{margin-left: 5%; margin-right: 5%; text-align: left;}
+    .shloka > h3{margin: 2em 0 0 5% !important; font-size: 2em !important;}
+
+    #four + div{display: none; overflow: hidden;}
+    h2{cursor: pointer;}
+    h2 i{transform: rotate(45deg);-webkit-transform: rotate(45deg); border: solid white;
+          border-width: 0 0.1em 0.1em 0;
+          display: inline-block;
+          margin-top: 0;
+          padding: 1vw;
+          transition: transform 500ms ease-in-out, margin 500ms ease-in-out;
+        }
+</style>
+
 <section class="shloka">
 
     <h1>Sanskrit for Fun!</h1>
@@ -302,4 +320,35 @@ Learning Sanskrit<br>
      </a>
    </div>
   </section>
+
+  <script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>
+      
+      <script>
+        var acc = document.getElementsByTagName("h2");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+        var panel = this.closest('section').nextElementSibling;
+        var arrow = this.lastChild;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+            arrow.style.transform = 'rotate(45deg)';
+            arrow.style.margin = '0 0 0 0';
+            /*arrow.style.-webkit-transform = 'rotate(-135deg)';*/
+            }
+        else {
+            panel.style.display = "block";
+            arrow.style.transform = 'rotate(-135deg)';
+            arrow.style.margin = '1vw 0 0 0';
+            }
+            });
+        }
+    </script>
   {% endblock %}
