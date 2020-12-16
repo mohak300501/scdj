@@ -8,8 +8,8 @@ from django.contrib.staticfiles.urls import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('1', views.subhashitam, name='subhashitam')
+    path('index', views.index, name='index'),
+    path('subhashitam', views.subhashitam, name='subhashitam')
 ]
 
 urlpatterns += staticfiles_urlpatterns()
