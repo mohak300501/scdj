@@ -1,0 +1,102 @@
+<html>
+<head>
+	{% load static %}
+    <title>Sanskrit Club | IITR</title>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="keywords" content="sanskrit club IIT Roorkee iitr subhashitam samskritam shaastra setu">
+	<meta name="description" content="Home page of Sanskrit Club - IITR">
+
+	<link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"/>
+</head>
+
+<body>
+    <div id="content" name="content">
+
+        <section class="main"></section>
+			
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<div id="flexgrid">
+
+						<div>
+							<header>
+								<h3>{% block tab1 %}<a href="{% url 'index' %}">Home<br>
+								गृहं</a>
+								{% endblock %}</h3>
+							</header>
+						</div>
+						<div>
+							<header>
+								<h3>{% block tab2 %}<a href="events.html">Events<br>
+									कार्यक्रमाः
+								</a>{% endblock %}</h3>
+							</header>
+						</div>
+						<div>
+							<header>
+								<h3>{% block tab3 %}<a href="learn.html">Learning Sanskrit<br>
+								संस्कृताभ्यासः</a>{% endblock %}</h3>
+							</header>
+						</div>
+					</div>
+
+					<div id="flexgrid">
+
+						
+            			<div>
+							<header>
+								<h3>{% block tab4 %}<a href="{% url 'subhashitam' %}">Subhashitam Samskritam<br>
+								सुभाषितं-संस्कृतं</a>{% endblock %}</h3>
+							</header>
+						</div>
+						<div>
+							<header>
+								<h3>{% block tab5 %}<a href="shaastra.html">Shaastra Setu<br>
+									शास्त्र-सेतुः
+								</a>{% endblock %}</h3>
+							</header>
+						</div>
+						<div>
+							<header>
+								<h3>{% block tab6 %}<a href="research.html">Research Articles<br>
+								शोध-लेखाः</a>{% endblock %}</h3>
+							</header>
+						</div>
+					</div>
+				</div>
+			</section>
+
+    {% block content %}
+    {% endblock %}
+
+    <footer id="footer" class="wrapper">
+
+        <div class="contact-section">
+          <div class="inner-width">
+            <h1>Get in touch with us</h1>
+            <p><img class='email2' src="./images/email.png" style="width:40px;height:40px;" alt="#"> sanskritclub@iitr.ac.in</p>
+            
+            <tr>
+              <td><a href='https://www.facebook.com/sanskritiitr/' target="_blank"><img class='email' src="./images/fblogo.png" style="width:40px;height:40px;" alt="#"></a>
+              <td><a href="https://twitter.com/Sanskrit_Club?s=08" target="_blank"><img class='email' src="./images/twitter.png" style="width:40px;height:40px;" alt="#"></a>
+              <td><a href="https://www.instagram.com/iit.roorkee/" target="_blank"><img class='email' src="./images/insta.png" style="width:40px;height:40px;" alt="#"></a>
+              <td><a href="https://www.youtube.com/user/sanskritiitr" target="_blank"><img class='email' src="./images/youtube.png" style="width:40px;height:40px;"  alt="#"></a>
+            </tr>
+            
+          </div><br>
+          <p>
+          <a href="./AboutUs.html#comments" target="_blank">Contact Us</a> |
+          <a href="./AboutUs.html#faq" target="_blank">About Us</a>
+          </p>
+        </div>
+      
+      
+          <div class="copyright">&copy; DESIGN: Sanskrit Club.</div>
+      </footer>
+
+    </div>
+
+</body>
+</html>
