@@ -1,6 +1,7 @@
 # views.py
 from django.shortcuts import render
 from django.http import HttpResponse
+from .shloka import s
 # Create your views here.
 
 
@@ -42,5 +43,5 @@ def target(response):
 	return render(response, "scwebsite/target.html", {})
 
 def learn(response):
-	return render(response, "scwebsite/learn.html", {})
+	return render(response, "scwebsite/learn.html", s)
 	
