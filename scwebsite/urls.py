@@ -12,7 +12,7 @@ urlpatterns = [
     path('subhashitam', views.subhashitam, name='subhashitam'),
     path('learn', views.learn, name='learn'),
     path('team', views.team, name='team'),
-    path('target', views.target, name='target'),
+    path('target', views.target, name='target')
 ]
 
 urlpatterns += staticfiles_urlpatterns()

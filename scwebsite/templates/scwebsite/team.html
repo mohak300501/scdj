@@ -10,15 +10,12 @@
 
       <p class="footer_p">Present Members</p>
 
-            <div class="team">
-              <div id="teamwork">
-                <img src="images/teams/Present/anil sir_faculty adviser.jpg" style="width:100%;height: 12em;">
-                 <div style="width:100%;height: 12em;background-image: linear-gradient(orange, yellow);padding: 1em;">
-                 <h1 style="font-size: 1.8em;text-align: center;">Prof. Anil Gourishetty</h1>
-                 <p style="text-align: center;">Faculty Advisor</p><br>
-                </div>
-             </div>
-            </div>
+      {%include 'scwebsite/teamb.html'%}
+      {%block tcontent%}
+      {%block timg%}<img src="images/teams/Present/anil sir_faculty adviser.jpg" style="width:100%;height: 12em;">{%endblock%}
+      {%block tname%}Prof. Anil Gourishetty{%endblock%}
+      {%block tpos%}Faculty Advisor{%endblock%}
+      {%endblock tcontent%}
 
            <div class="team">
               <div id="teamwork">

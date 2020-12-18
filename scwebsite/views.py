@@ -5,19 +5,17 @@ from django.http import HttpResponse
 
 
 def index(response):
-	return render(response, "scwebsite\index.html", {})
+	return render(response, "scwebsite/index.html", {})
 
 def subhashitam(response):
-	return render(response, "scwebsite\subhashitam.html", {})
+	return render(response, "scwebsite/subhashitam.html", {})
 
 def team(response):
-	return render(response, "scwebsite\team.html", {})
-
+	return render(response, "scwebsite/team.html", {})
 
 def target(response):
-	return render(response, "scwebsite\target.html", {})
-
+	return render(response, "scwebsite/target.html", {})
 
 def learn(response):
-	return render(response, "scwebsite\learn.html", {})
+	return render(response, "scwebsite/learn.html", {})
 	
