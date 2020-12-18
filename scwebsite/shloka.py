@@ -1,5 +1,5 @@
 s = {'shloka':
-    {('Alliteration',
+    (('Alliteration',
         '''विभूषितानङ्गरिपूत्तमाङ्गा</br>
             सद्यः कृतानेकजनार्तिभङ्गा |</br>
             मनोहरोत्तुङ्गचलत्तरङ्गा</br>
@@ -81,5 +81,5 @@ s = {'shloka':
                 meters, Bhujaṅgaprayātam (भुजङ्गप्रयातम्). Upon inspection, it becomes evident that it follows a fixed pattern of 1 short and 2 long syllables. Represented by |ऽऽ (लघु-गुरु-गुरु), this pattern very strongly resembles the movement of a
                 snake, which travels in one straight direction and performs two curving motions in one cycle. Hence, the name; bhujaṅga means snake, and prayātam means movement.<br> The meter consists of 4 padas (पद, or line), each of which has 4 such
                 cycles of |ऽऽ. The poet takes advantage of this regular rhythm to convey the prayer with reverence, in a soft melodious tune!''')
-      }
+      )
       }
