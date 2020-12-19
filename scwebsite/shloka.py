@@ -77,7 +77,7 @@ s = {'shloka':
             नमस्ते महाभाग बुद्ध त्रिवारम् ||''',
         'https://www.dropbox.com/s/wt3av4z403bcc7w/buddha.mpeg?raw=1',
         '''उत्सृज्य Giving up<br> कलत्रं च पुत्रं च मित्रादि सर्वम् wife, offspring, friend, and all others,<br> मनःशान्तये प्राज्यम् राज्यम् peace of mind, lavish lifestyle, and the kingdom;<br> अपूर्वा त्वया दर्शिता त्यागवृत्तिः never before
-                was such a sacrificing attitude displayed;<br> नमस्ते महाभाग बुद्ध त्रिवारम् I bow down thrice to you, O great soul of Buddha.<br><br> This shloka is a part of a poem, which has been composed in one of the most perfect and the most symmetric
+                was such a sacrificing attitude displayed;<br> नमस्ते महाभाग बुद्ध त्रिवारम् I bow down thrice to you, O great soul of Buddha.<br><br> This shloka is a part of a poem which has been composed in one of the most perfect and the most symmetric
                 meters, Bhujaṅgaprayātam (भुजङ्गप्रयातम्). Upon inspection, it becomes evident that it follows a fixed pattern of 1 short and 2 long syllables. Represented by |ऽऽ (लघु-गुरु-गुरु), this pattern very strongly resembles the movement of a
                 snake, which travels in one straight direction and performs two curving motions in one cycle. Hence, the name; bhujaṅga means snake, and prayātam means movement.<br> The meter consists of 4 padas (पद, or line), each of which has 4 such
                 cycles of |ऽऽ. The poet takes advantage of this regular rhythm to convey the prayer with reverence, in a soft melodious tune!''')

@@ -3,7 +3,6 @@ from django.urls import path
 
 from . import views
 
-from django.conf import settings
 from django.contrib.staticfiles.urls import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
@@ -12,8 +11,10 @@ urlpatterns = [
     path('subhashitam', views.subhashitam, name='subhashitam'),
     path('learn', views.learn, name='learn'),
     path('team', views.team, name='team'),
-    path('target', views.target, name='target')
+    path('target', views.target, name='target'),
+    path('AboutUs', views.AboutUs, name='AboutUs'),
+    path('events', views.events, name='events'),
+    path('intern', views.intern, name='intern'),
+    path('research', views.research, name='research'),
+    path('shaastra', views.shaastra, name='shaastra')
 ]
-
-urlpatterns += staticfiles_urlpatterns()
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

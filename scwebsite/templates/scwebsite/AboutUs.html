@@ -1,0 +1,58 @@
+{% extends 'scwebsite/base.html' %}
+{% block content %}
+
+    <style>
+        button {
+            background-color: #eee;
+            color: #444;
+            cursor: default !important;
+            padding: 18px;
+            box-shadow: -5px 5px 10px 0 grey;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+        }
+        
+        .faq {
+            margin-right: auto;
+            margin-left: auto;
+            width: 80%;
+        }
+        
+        button+div {
+            margin-top: 20px;
+        }
+    </style>
+
+
+    <br>
+    <h1>
+        <p align='center'>About Sanskrit Club - IIT Roorkee</p>
+    </h1>
+    <section class="faq">
+
+        <div>
+
+            <button>What is the Sanskrit Club about?</button>
+            <div>
+                <p>The Sanskrit Club is about promoting our beloved Sanskrit language and making efforts to resurrect its lost glory. Together we strive to explore and spread the rich wealth of our ancient texts through various activities.
+                </p>
+            </div>
+
+            <button>What is the purpose of this website?</button>
+            <div>
+                <p>This website has been created to let people know about the activities of the Sanskrit Club.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="one" class="wrapper style2">
+        <div id="comments">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfket64_5h_Cs9ymi4cvHUaa2OsHKAqKLBgs3dsf7D_-5jtVA/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0" style="margin: 0 auto; display: block;">Loading…</iframe>
+        </div>
+    </section>
+
+{% endblock %}

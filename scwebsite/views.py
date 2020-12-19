@@ -4,8 +4,6 @@ from django.http import HttpResponse
 from .shloka import s
 # Create your views here.
 
-
-
 def index(response):
 	return render(response, "scwebsite/index.html", {})
 
@@ -44,4 +42,18 @@ def target(response):
 
 def learn(response):
 	return render(response, "scwebsite/learn.html", s)
-	
+
+def events(response):
+	return render(response, "scwebsite/events.html", {})
+
+def intern(response):
+	return render(response, "scwebsite/intern.html", {})
+
+def research(response):
+	return render(response, "scwebsite/research.html", {})
+
+def shaastra(response):
+	return render(response, "scwebsite/shaastra.html", {})
+
+def AboutUs(response):
+	return render(response, "scwebsite/AboutUs.html", {})

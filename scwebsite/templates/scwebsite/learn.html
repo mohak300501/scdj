@@ -43,11 +43,8 @@ Learning Sanskrit<br>
         </header>
       </div>
     </section>
-    <div><h4>
-      <br>
-      <p align="center"><audio controls>
-        <source src="{{ i.2 }}" type="audio/ogg">
-      </audio></p><br>
+    <div><h4><br>
+      <p style="text-align: center;"><audio src="{{ i.2 }}" controls></p><br>
       {{ i.3|safe }}
     </h4></div>
     {%endfor%}
@@ -177,4 +174,5 @@ Learning Sanskrit<br>
             });
         }
     </script>
-  {% endblock %}
+
+{% endblock %}
