@@ -28,7 +28,7 @@ Research Articles<br>
     </section>
 
     <!-- Online Course -->
-    {{%for i in resource%}}
+    {%for i in resource%}
     <section id="courses" class="wrapper style2">
         <div class="inner">
             <div>
@@ -38,14 +38,14 @@ Research Articles<br>
                             <h2>{{ i.0 }}</h2>
                             <h4>{{ i.1 }}</h4><br>
                         </header>
-                        <p>{{ i.2 }}
+                        <p>{{ i.2|safe }}
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    {{%endblock%}}
+    {%endfor%}
 
     <section id="courses" class="wrapper style2">
         <div class="inner">

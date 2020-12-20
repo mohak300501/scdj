@@ -53,7 +53,7 @@ def research(response):
 	return render(response, "scwebsite/research.html", s)
 
 def shaastra(response):
-	return render(response, "scwebsite/shaastra.html", {})
+	return render(response, "scwebsite/shaastra.html", s)
 
 def AboutUs(response):
 	return render(response, "scwebsite/AboutUs.html", {})

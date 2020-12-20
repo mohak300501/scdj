@@ -1,4 +1,6 @@
-s = {'shloka':
+s = {
+    #shlokas
+    'shloka':
     (('Alliteration',
         '''विभूषितानङ्गरिपूत्तमाङ्गा</br>
             सद्यः कृतानेकजनार्तिभङ्गा |</br>
@@ -82,11 +84,60 @@ s = {'shloka':
         snake, which travels in one straight direction and performs two curving motions in one cycle. Hence, the name; bhujaṅga means snake, and prayātam means movement.<br> The meter consists of 4 padas (पद, or line), each of which has 4 such
         cycles of |ऽऽ. The poet takes advantage of this regular rhythm to convey the prayer with reverence, in a soft melodious tune!''')
       ),
+
+
+      #resources
       'resource':
       (('Vyoma Apps','Vyoma Linguistic Labs Foundation',
         '''<li>Links leading to multiple demo videos - <a href="https://www.vyomalabs.in" target="_blank">Organization</a>, <a href="https://www.sanskritfromhome.in" target="_blank">Non-Profit Works</a></li>
         <li><a href="https://psc.digitalsanskritguru.com/demo/index.php" target="_blank">Personal Learning Companion</a> products for kids.</li>
         <li>Free Sandhi apps - <a href="https://play.google.com/store/apps/details?id=com.vyoma.sandhi" target="_blnak">Google Play Store</a>, <a href="https://apps.apple.com/in/app/sandhi/id1462746139" target="_blank">Apple Store</a></li>
         <li>Samaasa app <a href="http://samasa.sanskritelearning.com" target="_blank">web version</a> - Username: demo, Password: demo@vyoma</li>''')
+      ),
+
+
+      #shaastra setu talks
+      'shaastra':
+      (('Session - 1','An Invitation to Indian Knowledge Systems: A Technologist Perspective',
+      '''<li>IKS (Indian Knowledge Systems) form a vast integrated ecosystem that addresses every aspect of life, and is probably the only ecosystem that addresses the question – “What is the purpose of life?”</li>
+         <li>Primacy of aural/spoken rather than visual/written word, and the tradition of debate for establishing the truth, are some unique aspects of IKS.</li>
+         <li>Please Click <a href="https://www.youtube.com/watch?v=8K2RaG37aRE&feature=youtu.be" target="_blank">here</a> to watch the full talk.</li>
+         <li>Please Click <a href="https://www.dropbox.com/s/39dpsdj8fvbr33q/InvitationToIKS.pdf?raw=1" target="_blank">here</a> to read more.</li>'''),
+      
+      ('Session - 2','Understanding and Predicting Human Behaviour: An Indic Perspective',
+      '''<li>The talk throws light on the structure of mind, its components and functions and how Vedic psychology looks at psychology as a science of human experience. The application of Vedic psychology will be introduced in the context
+         of counselling and self-inquiry.</li>
+         <li>Please Click <a href="https://www.youtube.com/watch?v=-0nvBJSw7Ko" target="_blank">here</a> to watch the full talk.</li>
+         <li>Please Click <a href="https://www.dropbox.com/s/d9zf3bwtkic19nr/Session%202%20-%20Notes.pdf?raw=1" target="_blank">here</a> to read more.</li>'''),
+         
+      ('Session - 3','Panini’s Ashtadhyayi: A Computational Marvel',
+      '''<li>This talk introduced Maharshi Panini’s work, "The Ashtadhyayi". Also,how the concepts laid out by Panini more than 2500 years ago are relevant in today’s cutting-edge technology age of Computer Science and Artificial Intelligence.
+         The topics covered by the talk include Vyakarana vs. grammar, Ashtadhyayi's structure, its object-oriented concepts, and insights for Natural Language Processing.</li>
+         <li>Please Click <a href="https://www.youtube.com/watch?v=8cC05KW8Gl0" target="_blank">here</a> to watch the full talk.</li>
+         <li>Please Click <a href="https://www.dropbox.com/s/88wp1y1qf5fh0h0/Session%203%20-%20Notes.pdf?raw=1" target="_blank">here</a> to read more.</li>'''),
+         
+      ('Session - 4','A tour guide to Indic Knowledge Disciplines and their Contemporary Relevance',
+      '''<li>Before a student curious about Indic knowledge can dive into a specific area of study, it helps to get a tour of the overall landscape, what its branches are, and how they are relevant to modern disciplines.</li>
+         <li>Please Click <a href="https://www.youtube.com/watch?v=2z3r9nUUnyg" target="_blank">here</a> to watch the full talk.</li>
+         <li>Please Click <a href="https://www.dropbox.com/s/cnadh4oirop22on/Session%204%20-%20notes.pdf?raw=1" target="_blank">here</a> to read more.</li>'''),
+         
+      ('Session - 5','A Primer on Vedanta for Scientists',
+      '''<li>This talk gives a bird’s eye view of Vedanta, the essence of the Vedas and India’s crowning theory of consciousness, and the seeds of new innovation and outlook it opens for the modern world. Swami Vivekananda has once said
+         that Vedanta will engulf the entire world one day due to its solid scientific basis and experiential backing.</li>
+         <li>Please Click <a href="https://www.youtube.com/watch?v=x4zoiYOm7Cg&t=1s" target="_blank">here</a> to watch the full talk.</li>
+         <li>Please Click <a href="https://www.dropbox.com/s/ae7o5t1pvk5tn3t/Session%205%20-%20notes.pdf?raw=1" target="_blank">here</a> to read more.</li>'''),
+         
+      ('Session - 6','Vedantic Understanding of Body, Mind and Consciousness',
+      '''<li>Vedantic view of some fundamental questions: “Who am I and why am I born in this world like me? Am I my name? Am I the body, the mind, or the intellect? Am I Consciousness?" These questions are the very root of Psychology and
+         motives for human existence.</li>
+         <li>Please Click <a href="https://www.youtube.com/watch?v=ZEgAf6NsTUU&t=1s" target="_blank">here</a> to watch the full talk.</li>
+         <li>Please Click <a href="https://www.dropbox.com/s/roteutj9o26d6cx/Session%206%20-%20notes.pdf?raw=1" target="_blank">here</a> to read more.</li>'''),
+         
+      ('Session - 7',"Ayurveda and its Concept of Prakriti: An Engineer's Guide",
+      '''<li>This talk gives an overview of the Vedic Science of Ayurveda, specifically addressing questions such as: What is the meaning of Ayurveda? What is the foundational theory upon which Ayurveda is based upon? What are Vata, Pitta
+         & Kapha that you might have heard? What is personalized wellbeing as per Ayurveda? What is the concept of Prakriti as per Ayurveda? Why is Prakriti fundamental for Ayurveda treatment?</li>
+         <li>Please Click <a href="https://www.youtube.com/watch?v=uewEyQNqa3I&t=7s" target="_blank">here</a> to watch the full talk.</li>
+         <li>Please Click <a href="https://www.dropbox.com/s/yy7irvhgphzzb8p/Session%207%20-%20notes.pdf?raw=1" target="_blank">here</a> to read more.</li>''')
+      
       )
       }
