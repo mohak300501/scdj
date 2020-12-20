@@ -28,26 +28,24 @@ Research Articles<br>
     </section>
 
     <!-- Online Course -->
+    {{%for i in resource%}}
     <section id="courses" class="wrapper style2">
         <div class="inner">
             <div>
                 <div class="box">
                     <div class="content">
                         <header class="align-center">
-                            <h2>Vyoma Apps</h2>
-                            <h4>Vyoma Linguistic Labs Foundation</h4><br>
+                            <h2>{{ i.0 }}</h2>
+                            <h4>{{ i.1 }}</h4><br>
                         </header>
-                        <p>
-                            <li>Links leading to multiple demo videos - <a href="https://www.vyomalabs.in" target="_blank">Organization</a>, <a href="https://www.sanskritfromhome.in" target="_blank">Non-Profit Works</a></li>
-                            <li><a href="https://psc.digitalsanskritguru.com/demo/index.php" target="_blank">Personal Learning Companion</a> products for kids.</li>
-                            <li>Free Sandhi apps - <a href="https://play.google.com/store/apps/details?id=com.vyoma.sandhi" target="_blnak">Google Play Store</a>, <a href="https://apps.apple.com/in/app/sandhi/id1462746139" target="_blank">Apple Store</a></li>
-                            <li>Samaasa app <a href="http://samasa.sanskritelearning.com" target="_blank">web version</a> - Username: demo, Password: demo@vyoma</li>
+                        <p>{{ i.2 }}
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    {{%endblock%}}
 
     <section id="courses" class="wrapper style2">
         <div class="inner">

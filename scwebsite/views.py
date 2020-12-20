@@ -1,7 +1,7 @@
 # views.py
 from django.shortcuts import render
 from django.http import HttpResponse
-from .datum import s
+from . datum import s
 # Create your views here.
 
 def index(response):
@@ -50,7 +50,7 @@ def intern(response):
 	return render(response, "scwebsite/intern.html", {})
 
 def research(response):
-	return render(response, "scwebsite/research.html", {})
+	return render(response, "scwebsite/research.html", s)
 
 def shaastra(response):
 	return render(response, "scwebsite/shaastra.html", {})
