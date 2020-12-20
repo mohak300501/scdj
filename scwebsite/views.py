@@ -1,7 +1,7 @@
 # views.py
 from django.shortcuts import render
 from django.http import HttpResponse
-from .shloka import s
+from .datum import s
 # Create your views here.
 
 def index(response):
